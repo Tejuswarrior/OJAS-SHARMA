@@ -1,0 +1,206 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/back.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+#us{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    border: 2px solid rgb(185, 140, 49);
+    color: rgb(185, 140, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+#us:hover
+{
+    background-color: rgb(221, 212, 35);
+}
+.web-components{
+    display: flex;
+    background-image: url("/green.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 75vh ;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp{
+    width: 180px;
+    height:  230px;
+    background-color: rgb(32, 130, 215);
+    border: 2px solid black;
+    margin-left:20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: all 200ms ease-in;
+}
+
+.comp:hover{
+    background-color: blueviolet;
+}
+#web-head{
+    position: absolute;
+    top: 600px;
+}
+
+#members{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.mem-box{
+    width: 250px;
+    height:  300px;
+    border: 2px solid rgb(47, 122, 187);
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mem-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    height: 100px;
+    width: 75px;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid black; 
+}
+
+#user-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 2px solid black;
+    background-image: url("/user.jpg");
+    background-size: cover;
+    margin-bottom: 5px;
+}
+#pro-head
+{
+   position: relative;
+   top: 1000px;
+}
+.user
+{
+    height: 10px;
+    width: 10px;
+    background-image: url("/user.jpg");
+    background-size: cover;
+}
+
+.projects{
+    
+    background-image: url("/Bproject.jpg");
+    background-size: cover;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    
+}
+
+
+.box{
+   background-color:black;
+   border: 2px solid yellow;
+   height: 100px;
+   width: 200px;
+   margin: 10px;
+   transition: all 200ms ease-in-out;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.box:hover{
+    height: 150px;  
+    
+}
+
+#pro-head{
+    color: azure;
+ position: absolute;
+ top: 120px;
+ font-size: 50px;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+}
+#id102{
+    width: 207vh;
+    height: 50vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id101{
+    margin: 50px;
+    height: 200px;
+    width: 350px;
+    background-image: url("/background.jpg");
+    background-size: cover;
+    color: white;
+    text-decoration:solid;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+button{
+   width: 100px;
+   height: 50px;
+   background-image: url("/gradient.jpg");
+   background-size: cover;
+   color: white;
+   border: 3px solid rgb(255, 255, 255);
+   border-radius: 30px;
+
+}
+button:hover{
+    border-color: rgb(255, 255, 255);
+    transition: all 400ms;
+    background-image: url("/greengradiant.jpg");
+    background-size: cover;
+}
+#id103{
+    font-size: 35px;
+}
